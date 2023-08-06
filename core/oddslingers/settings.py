@@ -60,8 +60,8 @@ _PLACEHOLDER_FOR_UNSET = 'set-this-value-in-secrets.env'
 ################################################################################
 DEBUG = False
 SERVE_STATIC = False
-DEFAULT_HOST = 'oddslingers.com'
-ALLOWED_HOSTS = [DEFAULT_HOST]
+DEFAULT_HOST = 'turingpoker.com'
+ALLOWED_HOSTS = [DEFAULT_HOST, '*']
 INTERNAL_IPS = ['127.0.0.1']
 DEFAULT_HTTP_PROTOCOL = 'https'
 SECRET_KEY = _PLACEHOLDER_FOR_UNSET
