@@ -1410,7 +1410,7 @@ class UserProfile extends React.Component {
 
                             <Tab eventKey={2} title={`${Object.keys(leaderboard_badges).length} Trophy Case`}>
                                 <h4>
-                                    <i style={{color: '#1171d6'}} className="fa fa-star"></i>&nbsp;
+                                    <i style={{color: '#cb0000'}} className="fa fa-star"></i>&nbsp;
                                 </h4>
                                 {Object.keys(leaderboard_badges).length ?
                                     <div className="badges-scroll"

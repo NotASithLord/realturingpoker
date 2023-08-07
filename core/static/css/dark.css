@@ -116,7 +116,7 @@ a.clbl {
 .felt {
   background-image: url(/static/images/felt.png);
   background-color: #1a1b1b;
-  border: 6px solid #252525; }
+  border: 10px solid #6b3f29; }
 
 .no-webp .felt {
   background-image: url(/static/images/felt.png); }
