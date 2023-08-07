@@ -17,7 +17,7 @@ class Migration(migrations.Migration):
         ),
         migrations.AlterField(
             model_name='user',
-            name='light_theme',
+            name='dark_theme',
             field=models.BooleanField(default=True),
         ),
     ]

@@ -25,7 +25,7 @@ import {THRESHOLD_BB_FOR_BOTS} from '@/constants'
 
 const style = `
     h1{
-        color: #1171d6;
+        color: #cb0000;
     }
     h2 {
         font-weight: 200;

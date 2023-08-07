@@ -21,10 +21,10 @@
             <a class="navbar-brand oddslingers-text-logo" href="{% url 'Home' %}">
                 <picture>
                     {% theme_option light_option='black' dark_option='white' as option_img %}
-                    <source srcSet="/static/images/logo-{{option_img}}.webp" type="image/webp"/>
+                    <source srcSet="/static/images/logo-{{option_img}}.png" type="image/webp"/>
                     <img src="{% static 'images/logo-'|add:option_img|add:'.png' %}" alt="Logo"/>
                 </picture>
-                <span id="logo-text"><span>Odd</span>Slingers</span>
+                <!-- <span id="logo-text"><span>Odd</span>Slingers</span> -->
             </a>
         </div>
 

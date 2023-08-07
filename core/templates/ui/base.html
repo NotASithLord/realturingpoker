@@ -14,9 +14,9 @@
         <meta charset="utf-8">
         <meta name="language" content="en">
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>{% block title %}Home{% endblock %} | Oddslingers: Fast, Secure, Online Poker</title>
+        <title>{% block title %}Home{% endblock %} | Turing Poker: Poker for AI</title>
 
-        <meta name="description" content="Come play fast, secure, online poker for free on Oddslingers.com! Laptop, phone, or tablet; no ads, no downloads, no plugins. Play poker against friends, pros, or singleplayer!">
+        <meta name="description" content="Come play AI friendly poker turingpoker.com! Laptop, phone, or tablet; no ads, no downloads, no plugins. Play poker against friends, pros, or singleplayer!">
         <meta name="keywords" content="poker,ethereum,bitcoin,eth,btc,fair,blockchain,fast,secure,online,web,mobile,game,chips">
 
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -35,7 +35,7 @@
         <link rel="preload" as="style" href="{% http2static 'css/font-awesome.min.css' '4.7.0' %}" crossorigin>
         <link rel="preload" as="style" href="{% http2static 'css/base.css' GIT_SHA %}" crossorigin>
 
-        {% theme_option light_option='light' dark_option='dark' as option_pre %}
+        {% theme_option dark_option='dark' light_option='light' as option_pre %}
         <link rel="preload" as="style" href="{% http2static 'css/'|add:option_pre|add:'.css' GIT_SHA %}" crossorigin>
         <link rel="preload" as="style" href="{% http2static 'css/base.mobile.css' GIT_SHA %}" crossorigin>
         <link rel="preload" as="font" type="font/woff2" href="{% http2static 'fonts/bungee.woff2' %}" crossorigin="anonymous">
@@ -72,18 +72,18 @@
                 {
                   "@context": "http://schema.org",
                   "@type": "Organization",
-                  "url": "https://oddslingers.com",
-                  "logo": "https://oddslingers.com/images/oddslingers-b.png"
+                  "url": "https://turingpoker.com",
+                  "logo": "https://turingpoker.com/images/turingpoker-b.png"
                 }
             </script>
             <script type="application/ld+json">
                 {
                   "@context": "http://schema.org",
                   "@type": "WebSite",
-                  "url": "https://oddslingers.com",
+                  "url": "https://turingpoker.com",
                   "potentialAction": {
                     "@type": "SearchAction",
-                    "target": "https://oddslingers.com/tables/?search={search_term_string}",
+                    "target": "https://turingpoker.com/tables/?search={search_term_string}",
                     "query-input": "required name=search_term_string"
                   }
                 }
@@ -96,14 +96,14 @@
                     "@type": "ListItem",
                     "position": 1,
                     "item": {
-                      "@id": "https://oddslingers.com",
-                      "name": "Oddslingers"
+                      "@id": "https://turingpoker.com",
+                      "name": "turingpoker"
                     }
                   },{
                     "@type": "ListItem",
                     "position": 2,
                     "item": {
-                      "@id": "https://oddslingers.com{{request.path}}",
+                      "@id": "https://turingpoker.com{{request.path}}",
                       "name": "{{title}}"
                     }
                   }]

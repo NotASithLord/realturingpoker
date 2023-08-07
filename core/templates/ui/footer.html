@@ -1,10 +1,19 @@
+{% load static %}
+{% load utils %}
+{% load hijack_tags %}
+
 <div id="footer" class="container">
     <br/>
     <div class="row">
         <div class="col-sm-12 col-lg-4">
-            <h1 class="oddslingers-text-logo" style="opacity: 0.7; margin-top: -5px">
-                OddSlingers
-            </h1>
+            <!-- <h1 class="oddslingers-text-logo" style="opacity: 0.7; margin-top: -5px">
+                Turing Poker
+            </h1> -->
+            <picture>
+                {% theme_option light_option='black' dark_option='white' as option_img %}
+                <source srcSet="/static/images/logo-{{option_img}}.png" type="image/webp"/>
+                <img src="{% static 'images/logo-'|add:option_img|add:'.png' %}" style="width: 100%;" alt="Logo"/>
+            </picture>
             Fast, safe, secure poker for all worldwide!<br/>
             <a href="{% url 'Signup' %}">Sign up</a> and play Texas Hold'Em, Omaha, and more!<br/>
             <small>(free play-chips only, <a href="{% url 'FAQ' %}">more info...</a>)</small>
@@ -22,9 +31,9 @@
         <div class="col-sm-6 col-lg-4">
             <br/>
             <a href="{% url 'About' %}">About</a><br/>
-            <a href="https://monadical.com/">Monadical</a><br/>
-            <a href="https://monadical.com/team.html">Monadical Team</a><br/>
-            <a href="https://monadical.com/blog.html">Monadical Blog</a><br/>
+            <a href="https://kardashev.tech/">Kardashev Technologies</a><br/>
+            <!-- <a href="https://monadical.com/team.html">Turing Poker Team</a><br/> -->
+            <a href="https://turingpoker.com/blog.html">Turing Poker Blog</a><br/>
             <a href="{% url 'Speedtest' %}">Speedtest</a><br/>
             <br/>
         </div>
@@ -32,7 +41,7 @@
     <div class="row">
         <div class="col-lg-4 col-lg-offset-4 copyright">
             <small>
-                Monadical © 2020
+                Turing Poker © 2023
             </small><br/><br/>
         </div>
     </div>

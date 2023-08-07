@@ -32,13 +32,14 @@ h1 {
 
 /* brand */
 #logo-text > span {
-  color: #1171d6 !important; }
+  color: #cb0000 !important; }
 
 .oddslingers-text-logo {
   color: #ddd;
   text-shadow: 3px 2px 10px rgba(0, 0, 0, 0.2); }
   .oddslingers-text-logo::first-letter {
-    color: #3b9aff; }
+    color: #cc0000; 
+  }
 
 a.clbl {
   color: #ddd; }

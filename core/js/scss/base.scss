@@ -807,8 +807,8 @@ body > div.inner-content.container-fluid {
 }
 .navbar-brand img, .navbar-brand source {
     display: inline-block;
-    height: 38px;
-    margin-top: -9px;
+    height: 70px;
+    margin-top: -25px;
     margin-left: 20px;
     margin-right: 0px;
     vertical-align: top;
@@ -1460,9 +1460,9 @@ div.bet-row i.fa.active {
 
 /* Cards */
     .card.spades {color: black;}
-    .card.hearts {color: red;}
+    .card.hearts {color: #cb0000;}
     .card.color2.clubs {color: black;}   /* two-color cards */
-    .card.color2.diamonds {color: red;}
+    .card.color2.diamonds {color: #cb0000;}
     .card.color4.clubs {color: green;}         /* four-color cards */
     .card.color4.diamonds {color: blue;}
 

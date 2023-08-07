@@ -61,7 +61,7 @@ hr {
 
 /* Leaderboard */
 #leaderboard-tabs li.active a {
-  background-color: #1171d6;
+  background-color: #cb0000;
   color: white;
   display: inline-block;
   border-radius: 10px 10px 0px 0px; }
@@ -149,7 +149,7 @@ hr {
   font-family: "Bungee", "Helvetica Nue", "Arial", sans-serif; }
 
 .orange-separator {
-  border-top: solid 1px #1171d6; }
+  border-top: solid 1px #cb0000; }
 
 .fa-twitter-square {
   color: #1da1f2; }

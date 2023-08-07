@@ -26,6 +26,13 @@
   src: local("Lato Regular"), local("Lato-Regular"), url("/static/fonts/lato-regular.woff2") format("woff2"), url("/static/fonts/lato-regular.ttf") format("truetype");
   font-weight: 200; }
 
+  @font-face {
+    font-family: 'Akashi';
+    font-style: normal;
+    src: local("Akashi Light"), local("Akashi-Light"), url("/static/fonts/Akashi.ttf") format("truetype"), url("/static/fonts/Akashi.ttf") format("truetype");
+    font-weight: 300; }
+  
+
 /*@font-face {
     font-family: 'Lato Bold';
     font-style: normal;
@@ -46,6 +53,9 @@ body, html {
   overflow-y: auto;
   /*-webkit-font-smoothing: antialiased;*/ }
 
+a {
+  color: #cc0000;
+}
 h1 {
   font-family: "Questa", "Helvetica Nue", "Arial", sans-serif;
   font-weight: 200;
@@ -558,11 +568,11 @@ img.tiny-icon {
   animation-name: fadeOutRight;
   animation: fadeOutRight 0.5s ease-out; }
 
-@keyframes rotate {
+/* @keyframes rotate {
   from {
     transform: rotate(0deg); }
   to {
-    transform: rotate(180deg); } }
+    transform: rotate(180deg); } } */
 
 .neon {
   vertical-align: middle;
@@ -736,7 +746,7 @@ body > div.inner-content.container-fluid {
 
 /********************************************* Navbar *********************************************/
 .oddslingers-text-logo {
-  font-family: 'Questa', 'Helvetica';
+  font-family: 'Akashi', 'Helvetica';
   font-size: 40px; }
 
 .navbar {
@@ -761,18 +771,20 @@ body > div.inner-content.container-fluid {
 
 .navbar-brand img, .navbar-brand source {
   display: inline-block;
-  height: 38px;
-  margin-top: -9px;
+  height: 52px;
+  margin-top: -15px;
   margin-left: 20px;
   margin-right: 0px;
   vertical-align: top;
-  transition: 200ms border ease-in-out; }
+  /* transition: 200ms border ease-in-out;  */
+}
 
 .navbar-brand:hover img {
-  border-radius: 50%;
-  animation: rotate 5s 1 linear;
+  /* border-radius: 50%; */
+  /* animation: rotate 5s 1 linear; */
   /*transition: 3s border;*/
-  transition: 200ms border ease-in-out; }
+  /* transition: 200ms border ease-in-out;  */
+}
 
 .navbar-brand:active img {
   border: 3px solid green;
@@ -873,7 +885,7 @@ body > div.inner-content.container-fluid {
   transition: filter 400ms, opacity 400ms, color 400ms; }
 
 #navbar-items .nav .active {
-  color: #1171d6; }
+  color: #cb0000; }
 
 #navbar-items .nav .active img {
   filter: grayscale(0%);
@@ -881,7 +893,7 @@ body > div.inner-content.container-fluid {
   transition: filter 1500ms, opacity 1500ms; }
 
 #navbar-items .nav .account-dropdown a.dropdown-toggle {
-  color: #1171d6;
+  color: #cb0000;
   /* margin-right: -6px; */ }
 
 #navbar-items .nav .settings-dropdown a {
@@ -1002,7 +1014,6 @@ body > div.inner-content.container-fluid {
   cursor: pointer; }
 
 .table-thumbnail:hover {
-  border: 3px solid #1171d6;
   transition: border 50ms ease-in;
   background-color: rgba(255, 255, 255, 0.9); }
 
@@ -1362,14 +1373,14 @@ div.bet-row i.fa.active {
   color: black; }
 
 .card.hearts {
-  color: red; }
+  color: #cb0000; }
 
 .card.color2.clubs {
   color: black; }
 
 /* two-color cards */
 .card.color2.diamonds {
-  color: red; }
+  color: #cb0000; }
 
 .card.color4.clubs {
   color: green; }
@@ -2772,7 +2783,7 @@ div.noUi-value.noUi-value-horizontal {
 
 .chat-preset {
   display: inline-block;
-  background-color: #1171d6;
+  background-color: #cb0000;
   border-radius: 20px;
   padding: 3px 5px;
   margin: 0 0 5px 5px;

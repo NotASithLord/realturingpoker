@@ -12,7 +12,7 @@ class Migration(migrations.Migration):
     operations = [
         migrations.AddField(
             model_name='user',
-            name='light_theme',
+            name='dark_theme',
             field=models.BooleanField(default=False),
         ),
     ]

@@ -21,7 +21,7 @@ body {
   color: #ff851b; }
 
 .highlight {
-  background: #1171d6;
+  background: #cb0000;
   color: #000; }
 
 h1 {
@@ -29,13 +29,14 @@ h1 {
 
 /* brand */
 #logo-text > span {
-  color: #1171d6 !important; }
+  color: #cb0000 !important; }
 
 .oddslingers-text-logo {
   color: #777;
   text-shadow: 2px 2px 0px rgba(185, 185, 185, 0.2); }
   .oddslingers-text-logo::first-letter {
-    color: #1171d6; }
+    color: #cc0000; 
+  }
 
 a.clbl {
   color: #333; }
@@ -45,22 +46,23 @@ a.clbl {
   color: #564c4c;
   transition: color 200ms ease-in-out; }
   .navbar-default .navbar-brand:hover img {
-    border: 3px solid #1171d6;
-    transition: border 200ms ease-in-out; }
+    /* border: 3px solid #cb0000; */
+    transition: border 200ms ease-in-out; 
+  }
 
 .navbar-default .navbar-nav > li > a {
   color: #333; }
   .navbar-default .navbar-nav > li > a:hover {
-    color: #1171d6; }
+    color: #cb0000; }
 
 .navbar-default.neon {
   color: #fafafa; }
 
 .navbar .navbar-nav > li > a:hover > i.fa {
-  color: #1171d6; }
+  color: #cb0000; }
 
 .navbar .navbar-nav > li > a:active > i.fa {
-  color: #1171d6; }
+  color: #cb0000; }
 
 .navbar a.navbar-brand:hover {
   color: #ccc;
@@ -142,7 +144,7 @@ a.clbl {
 .empty-seatbox .seat {
   background-color: #3b3e41; }
   .empty-seatbox .seat:hover {
-    border-color: #1171d6; }
+    border-color: #cb0000; }
 
 .seat {
   background: #575a5c;
@@ -206,7 +208,7 @@ a.clbl {
   #footer a {
     color: #000; }
     #footer a:hover {
-      color: #1171d6; }
+      color: #cb0000; }
   #footer .col-middle {
     border-left: 1px solid #333;
     border-right: 1px solid #333; }
@@ -250,7 +252,7 @@ a.clbl {
   .chat-lines .chat-line:hover .chat-timestamp {
     color: #ddd; }
   .chat-lines .light .orange {
-    color: #1171d6; }
+    color: #cb0000; }
   .chat-lines .lime {
     color: #27b23f; }
   .chat-lines .gray {

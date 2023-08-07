@@ -41,7 +41,7 @@ window.onerror = function(error, url, line, python_exc) {
     var subject = "Page Loading Error for " + (window.user ? window.user.username : 'Anonymous User');
     var help_text = window.EMAIL_HELP_TXT
     var support_info = "================================%0AOn URL: " + window.location + "%0A" + encodeURIComponent(python_exc) + "%0A" + encodeURIComponent(url) + ":" + encodeURIComponent(line) + "%0A" + encodeURIComponent(error);
-    var support_link = "mailto:support@oddslingers.com?subject=" + subject + "&body=" + help_text + "%0A%0A" + support_info;
+    var support_link = "mailto:support@turingpoker.com?subject=" + subject + "&body=" + help_text + "%0A%0A" + support_info;
     $('#react-loading .failed').append('<br><br><a href="' + support_link + '">Contact support</a> to report the error and get help.');
     $('#react-loading').append('<img height="80px" src="/static/images/sad-mac-face.png">');
     $('#react-loading .failed').show();
