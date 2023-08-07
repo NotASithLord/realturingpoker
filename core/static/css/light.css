@@ -133,10 +133,12 @@ a.clbl {
     background-color: none; }
 
 .felt {
-  background-image: url(/static/images/feltlight.webp);
+  background-image: url(/static/images/felt.png);
   background-color: #32af3287;
-  border: 6px solid #3b3e41;
-  background-blend-mode: exclusion; }
+  border: 10px solid #3b3e41;
+  background-size: 100%;
+  /* background-blend-mode: exclusion; */
+ }
 
 .no-webp .felt {
   background-image: url(/static/images/feltlight.png); }

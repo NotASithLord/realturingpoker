@@ -21,10 +21,10 @@ input {
   color: #777; }
 
 .orange {
-  color: #3b9aff; }
+  color: #cb0000; }
 
 .highlight {
-  background: #3b9aff;
+  background: #cb0000;
   color: black; }
 
 h1 {
@@ -114,7 +114,7 @@ a.clbl {
     background-color: #000; }
 
 .felt {
-  background-image: url(/static/images/felt.webp);
+  background-image: url(/static/images/felt.png);
   background-color: #1a1b1b;
   border: 6px solid #252525; }
 
@@ -124,7 +124,7 @@ a.clbl {
 .empty-seatbox .seat {
   background-color: #000; }
   .empty-seatbox .seat:hover {
-    border-color: #3b9aff; }
+    border-color: #cb0000; }
 
 .seat {
   background-color: #39422f;
@@ -173,7 +173,7 @@ a.clbl {
   #footer a {
     color: #fafafa; }
     #footer a:hover {
-      color: #3b9aff; }
+      color: #cb0000; }
   #footer .col-middle {
     border-left: 1px solid #333;
     border-right: 1px solid #333; }
@@ -283,7 +283,7 @@ a.clbl {
 
 /* Leaderboard */
 #leaderboard-tabs li.active a {
-  background-color: #3b9aff;
+  background-color: #cb0000;
   color: white;
   display: inline-block;
   border-radius: 10px 10px 0px 0px; }
