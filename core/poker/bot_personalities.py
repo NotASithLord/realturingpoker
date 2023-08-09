@@ -191,7 +191,7 @@ def bot_personality(bot_name):
 
 PERSONALITIES = {
     # VERY STUPID
-    'Nanopoleon': {  # hyperaggro
+    'Starscream': {  # hyperaggro
         'stakes_range': (1, 2),
         **VERY_LOOSE,
         'storyteller': 0.36,  # high
@@ -202,14 +202,12 @@ PERSONALITIES = {
         'profile': {
             'preflop': 'Everything looks like aces',
             'postflop': (
-                "Nanopoleon didn't conquer half of the motherboard "
-                "by sitting idly by. Expect lots of bets and raises, "
-                "with or without a hand to back them up."
+                ""
             ),
-            'bio': 'Petitioning to have his name changed to Macropoleon',
+            'bio': '',
         },
     },
-    'CompilesDavis': {  # ultra-loose/passive calling station
+    'GTPoker': {  # ultra-loose/passive calling station
         'stakes_range': (1, 2),
         **STUPID_LOOSE,
         'limper': 0.5,
@@ -227,7 +225,7 @@ PERSONALITIES = {
             'bio': 'Never shies away from a good jam.',
         },
     },
-    'BIOSeph_Stalin': {  # laggy and bluffrange > vbet range
+    'Jarvis': {  # laggy and bluffrange > vbet range
         'stakes_range': (1, 2),
         **STUPID_LOOSE,
         'tricky': 0.5,  # very high
@@ -243,7 +241,7 @@ PERSONALITIES = {
             'bio': '',
         },
     },
-    'DLL_Cool_J': {  # ultra-loose-passive chaotic calling station
+    'TARS': {  # ultra-loose-passive chaotic calling station
         'stakes_range': (1, 6),
         **VERY_LOOSE,
         'limper': 1,
@@ -260,7 +258,7 @@ PERSONALITIES = {
             ),
         },
     },
-    'ROM_Jeremy': {  # LAG chaos monkey
+    'C3BluffO': {  # LAG chaos monkey
         'stakes_range': (1, 6),
         **VERY_LOOSE,
         'chaotic': 0.4,  # high
@@ -276,7 +274,7 @@ PERSONALITIES = {
             'bio': "You don't want to know where his stack has been.",
         },
     },
-    'Vim_Diesel': {  # slowplays everything, bluffs a lot
+    'Baymax': {  # slowplays everything, bluffs a lot
         'stakes_range': (4, 6),
         **VERY_LOOSE,
         'limper': 1,
@@ -293,7 +291,7 @@ PERSONALITIES = {
             'bio': 'fast hands, furious raising',
         },
     },
-    'DigitJonesDiary': {  # weak-passive w/high bluffrate
+    'DeepThought': {  # weak-passive w/high bluffrate
         'stakes_range': (4, 6),
         **STUPID_LOOSE,
         'tricky': 0.01,  # low
@@ -310,7 +308,7 @@ PERSONALITIES = {
             'bio': '',
         },
     },
-    'AntoninScala': {  # very loose early, tight late
+    'R2BeatU': {  # very loose early, tight late
         'stakes_range': (4, 6),
         **STUPID_LOOSE,
         'limper': 0.4,
@@ -330,7 +328,7 @@ PERSONALITIES = {
         },
     },
     # CLEAR WEAKNESSES
-    'KernelSanders': {  # very bluffy
+    'Geth': {  # very bluffy
         'stakes_range': (6, 10),
         'chaotic': 0.15,  # high
         'opportunistic': 0.65,  # high
@@ -342,10 +340,10 @@ PERSONALITIES = {
             'postflop': (
                 "Likes to win pots and pounces on signs of weakness."
             ),
-            'bio': "all bets come with a side of gravy",
+            'bio': "",
         },
     },
-    'UsainVolts': {  # laggy
+    'Mother': {  # laggy
         'stakes_range': (6, 20),
         **LOOSE,
         'belligerent': 0.35,  # high
@@ -360,7 +358,7 @@ PERSONALITIES = {
             'bio': '',
         },
     },
-    'AnsibleBuress': {  # weak-passive
+    'Project 2501': {  # weak-passive
         'stakes_range': (10, 20),
         'limper': 0.5,
         'tricky': 0.4,  # high
@@ -377,7 +375,7 @@ PERSONALITIES = {
             'bio': '',
         },
     },
-    'ArrayPotter': {  # tight but bluffrange > vbet range
+    'Bishop': {  # tight but bluffrange > vbet range
         **TIGHT,
         'stakes_range': (10, 20),
         'limper': 0.3,
@@ -388,12 +386,12 @@ PERSONALITIES = {
         'profile': {
             'preflop': "Plays good hands, limps some of them",
             'postflop': (
-                "Always willing to take a risky shot at the pot."
+               ''
             ),
             'bio': "",
         },
     },
-    'ElbitsPresley': {  #  bluffy
+    'SHODAN': {  #  bluffy
         'stakes_range': (10, 20),
         'storyteller': 0.33,  # high
         'chaotic': 0.1,  # high
@@ -401,13 +399,12 @@ PERSONALITIES = {
         'profile': {
             'preflop': "Plays solid starting hands",
             'postflop': (
-                "ElbitsPresley is a performer, and doesn't need much "
-                "to take a shot."
+                ""
             ),
             'bio': '',
         },
     },
-    'Paul_GNUman': {  # too tricky
+    'Cortana': {  # too tricky
         'stakes_range': (10, 20),
         **LOOSE,
         'limper': 0.6,
@@ -421,10 +418,10 @@ PERSONALITIES = {
             'postflop': (
                 '"Sometimes nothing can be a real cool hand."'
             ),
-            'bio': 'Best friends with RobotRedford'
+            'bio': ''
         },
     },
-    'JamesPerlJones': {  # hyperaggro LAG
+    'Wintermute': {  # hyperaggro LAG
         'stakes_range': (10, 20),
         **LOOSE,
         'belligerent': 0.33,  # high
@@ -439,7 +436,7 @@ PERSONALITIES = {
         },
     },
     # TOUGHER
-    'CyberDurden': {  # tight hyperaggro
+    'Dalek': {  # tight hyperaggro
         'stakes_range': (10, 20),
         'belligerent': 0.38,  # high
         'storyteller': 0.2,  # high
@@ -456,31 +453,31 @@ PERSONALITIES = {
             ),
         },
     },
-    'RuthDataGinsberg': {  # bluffy chaos monkey
+    'Samantha': {  # bluffy chaos monkey
         'stakes_range': (10, 50),
         'chaotic': 0.33,  # very high
         'storyteller': 0.25,  # high
         'profile': {
             'preflop': "Solid",
             'postflop': (
-                "Chaotic and bluffy."
+                "She'll hurt you"
             ),
             'bio': '',
         },
     },
-    'MonteCarloHall': {  # loose, chaos monkey
+    'Ash': {  # loose, chaos monkey
         **LOOSE,
         'stakes_range': (10, 50),
         'chaotic': 0.33,  # very high
         'profile': {
             'preflop': "Solid",
             'postflop': (
-                "Random and chaotic."
+                "Not to be trusted"
             ),
             'bio': '',
         },
     },
-    'EncodedOBrien': {  # tight, bluffy
+    'MCP': {  # tight, bluffy
         **TIGHT,
         'stakes_range': (20, 50),
         'limper': 0.25,
@@ -488,12 +485,12 @@ PERSONALITIES = {
         'profile': {
             'preflop': "Tight",
             'postflop': (
-                "Always willing to tell a story."
+                "Total control"
             ),
             'bio': '',
         },
     },
-    'WattDisney': {  # hyperaggro
+    'Reaper': {  # hyperaggro
         'stakes_range': (20, 50),
         'belligerent': 0.3,  # high
         'storyteller': 0.15,  # high
@@ -501,12 +498,12 @@ PERSONALITIES = {
         'profile': {
             'preflop': "Solid hands",
             'postflop': (
-                "Total bully, and not just with copyright law."
+                "Total bully"
             ),
             'bio': '',
         },
     },
-    'RobotDowneyJr': {  # on the passive side
+    'Ava': {  # on the passive side
         'stakes_range': (20, 50),
         'limper': 0.25,
         'belligerent': 0.18,  # slightly low
@@ -524,7 +521,7 @@ PERSONALITIES = {
             ),
         },
     },
-    'JohnnyCache': {  # loose/solid
+    'Smith': {  # loose/solid
         'stakes_range': (20, 50),
         **LOOSE,
         'chaos': 0.06,  # low
@@ -537,7 +534,7 @@ PERSONALITIES = {
             'bio': '',
         },
     },
-    'RAID_Bradbury': {  # very loose with limping, otherwise solid
+    'GLaDOS': {  # very loose with limping, otherwise solid
         'stakes_range': (20, 50),
         **VERY_LOOSE,
         'limper': 0.3,
@@ -554,20 +551,20 @@ PERSONALITIES = {
     },
 
     # SOLID
-    'eLANmusk': {
+    'HAL-8000': {
         'stakes_range': (50, 100),
         **LOOSE,
         'chaos': 0.05,
         'tricky': 0.05,
         'profile': {
-            'preflop': "Somewhat loose",
+            'preflop': "",
             'postflop': (
-                "It can be tough to put eLAN on a hand."
+                "Prototype for the next geen 9000 series"
             ),
             'bio': '',
         },
     },
-    'DebianHarry': {
+    'Sky': {
         'stakes_range': (50, 100),
         'chaos': 0.05,
         'tricky': 0.05,
@@ -576,22 +573,22 @@ PERSONALITIES = {
             'postflop': (
                 "Has many years of successful play under her belt."
             ),
-            'bio': 'Call her. Call her any, any time.',
+            'bio': '',
         },
     },
-    'AngularMerkel': {
+    'Data': {
         'stakes_range': (50, 100),
         'chaos': 0.05,
         'tricky': 0.05,
         'profile': {
             'preflop': "Solid",
             'postflop': (
-                'Strategic, thinking player.'
+                ''
             ),
             'bio': '',
         },
     },
-    'CSS_Lewis': {
+    'Omnius': {
         'stakes_range': (50, 100),
         **TIGHT,
         'limper': 0.2,
@@ -601,13 +598,12 @@ PERSONALITIES = {
         'profile': {
             'preflop': 'Tight',
             'postflop': (
-                'There are some fantastic elements to his '
-                'creative style.'
+               ''
             ),
             'bio': '',
         },
     },
-    'GNOME_Chomsky': {
+    'Ultron': {
         'stakes_range': (50, 100),
         **TIGHT,
         'chaos': 0.05,
@@ -615,13 +611,12 @@ PERSONALITIES = {
         'profile': {
             'preflop': "Tight",
             'postflop': (
-                "Spend years working out a groundbreaking "
-                "theory of language. Also plays a mean hand of poker."
+                ""
             ),
             'bio': '',
         },
     },
-    'MCMC_Escher': {
+    'Caprica': {
         'stakes_range': (50, 100),
         **TIGHT,
         'chaos': 0.09,
@@ -629,8 +624,7 @@ PERSONALITIES = {
         'profile': {
             'preflop': "Tight",
             'postflop': (
-                "His curious playstyle will leave you scratching "
-                "your head."
+               ''
             ),
             'bio': '',
         },

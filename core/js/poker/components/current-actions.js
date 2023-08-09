@@ -25,7 +25,7 @@ export class CurrentActionsComponent extends React.Component {
     componentDidMount() {
         this.props.playSound('your_turn')
         document.title = '...Your action ' + document.title
-        change_favicon('/static/images/alert-favicon.png')
+        change_favicon('/static/images/alert-favicon.ico')
     }
     componentWillUnmount() {
         this.props.updateCurrentBet(null)

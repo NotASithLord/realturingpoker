@@ -102,7 +102,7 @@ input[type="search"]::-webkit-search-cancel-button {
   background-color: #7489d9; }
 
 .modal-header {
-  background-color: #ff9700;
+  background-color: #cc0000;
   color: white;
   border-radius: 4px 4px 0px 0px; }
 
@@ -2752,6 +2752,7 @@ div.noUi-value.noUi-value-horizontal {
   border: 0px;
   font-size: 15px;
   padding-top: 0;
+  background-color: #cc0000;
   border-radius: 0px; }
 
 .chat-lines .chat-line {

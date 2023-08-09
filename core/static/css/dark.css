@@ -189,7 +189,7 @@ a.clbl {
   color: #ddd; }
 
 .table-page {
-  background-color: #1B1C1C;
+  background-color: #232323;
   background-image: url(/static/images/poker-bg-tile.jpg); 
   background-blend-mode: color-burn;
   background-size: 290px;
@@ -260,7 +260,8 @@ a.clbl {
   background-color: #333; }
 
 .login-page {
-  background-color: #333; }
+  background-color: #232323;
+  ; }
 
 .faq-page {
   background-color: #333;
