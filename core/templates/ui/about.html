@@ -1,9 +1,11 @@
+
+
 {% extends 'ui/base.html' %}
 
 {% load static %}
 {% load cache %}
 
-{% block title %}About{% endblock %}
+{% block title %}About Turing Poker{% endblock %}
 
 {% cache 500 aboutpage user.is_authenticated DEBUG GIT_SHA %}
 
@@ -113,13 +115,13 @@
             <br/><br/>
 
             <center>
-                <img src="/static/images/logo-black.png" style="height: 120px;"/> <img src="/static/images/monadical-black-white.png" style="height: 120px;"/>
+                <img src="/static/images/logo-black.png" style="height: 120px;"/> 
             </center>
 
             <br/><br/>
 
             <h2 style="font-variant: normal;text-shadow: 3px 3px 4px rgba(0,0,0,0.07);">
-                OddSlingers is a free, <a href="https://github.com/Monadical-SAS/oddslingers.poker">open source project</a> built by <a href="https://monadical.com/">Monadical</a>...
+                Turing Poker: Advancing Game Theory and Adversarial ML. 
             </h2>
 
 
@@ -134,7 +136,7 @@
                           <div class="form-group">
                             <div class="input-group">
                                 <div class="input-group-addon">
-                                    Get occasional new-feature announcements
+                                    Stay updated with our latest features and advancements
                                 </div>
                                 <input type="email" name="email" class="form-control" placeholder="{{request.user.email|default:'email@example.com'}}">
                             </div>
@@ -149,20 +151,20 @@
             <br/><br/>
 
             <div class="body-text">
-                &nbsp; &nbsp; &nbsp; <b>OddSlingers is a free (and ad-free), <a href="https://github.com/Monadical-SAS/oddslingers.poker">open source</a>, no-rake, online poker platform built by 
-                <a href="https://monadical.com/">Monadical</a>, a software development consultancy based in Montrel and Medellin. 
+                &nbsp; &nbsp; &nbsp; <b>Turing Poker is a free, no-stake, online poker platform built by 
+                <a href="https://kardashev.tech/">Kardashev Technologies</a> using the open source <a href="https://github.com/monadical-sas/oddslingers.poker">Oddslingers</a> project as a foundation.
                 We offer play-chips games only (no real money).</b>
                 <br/><br/>
-                OddSlingers was founded out of the desire for a clean, secure, poker experience that just works without 
-                needing to install any clunky software.
+                Turing Poker was created to advance game theory and adversarial machine learning while providing a fun, interactive environment for both human and AI players. It does this by providing a websocket API to facilitate easy play by any algorithmic or ML agent on behalf of a user. 
                 <br/><br/>
-                Our online <a href="https://oddslingers.com">poker platform</a> works on mobile, tablet, and desktops, and can be used to play against
-                our worldwide userbase without needing to download anything.
+                <b>Unlike every other online poker platform on the web, Turing Poker not only allows AI use, but encourages it!</b>
+                <br/><br/>
+                In addition to AI agents, we also believe in a first class human experience. The online <a href="https://turingpoker.com">poker platform</a> works on mobile, tablet, and desktops, and can be used to compete against
+                our worldwide userbase without the need to download anything.
+                <br/><br/>
                 We support: Texas Hold'Em, Omahah, and 2-7 Bountry (both cash games and tournaments), with more variants on the way!
                 <br/><br/>
-                New users receive <b>{{SIGNUP_BONUS}}</b> free chips, and credit cards are not required, and there are absolutely no ads.
-                <br/><br/>
-                If you have software development needs, <a href="https://monadical.com/contact-us.html">maybe we can help you</a>!
+                New users receive <b>{{SIGNUP_BONUS}}</b> free chips, no credit cards required, and absolutely no ads.
                 <br/><br/>
             </div>
 
@@ -174,18 +176,18 @@
                 <small><img src="/static/images/chips.png" style="height: 20px"> New users get {{SIGNUP_BONUS}} free chips <img src="/static/images/chips.png" style="height: 20px"></small>
             </a>
             <br/><br/>
-            <a href="/">OddSlingers.com</a> works on mobile too!
+            <a href="/">TuringPoker.com</a> works on mobile too!
             {% endif %}
             <br/><hr/>
 
             <hr/>
 
             <div class="company-info">
-                <strong>Monadical is hiring!</strong><br/>
-                Check out our <a href="https://monadical.com/team.html">team page</a> if you're interested in building cool stuff.
+                <strong>Kardashev Technologies is growing!</strong><br/>
+                If you're a developer or investor passionate about unbridled accelerationism <a href="https://kardashev.tech/team.html">reach out</a>. 
                 <br/><br/>
                 <a href="{% url 'Support' %}">Contact support</a> if you encounter a bug,
-                or email us at <br/><a href="mailto:hello@oddslingers.com">hello@oddslingers.com</a>
+                or email us at <br/><a href="mailto:hello@turingpoker.com">hello@turingpoker.com</a>
                 if you just want to say hi!
                 <br/>
             </div>
@@ -194,10 +196,10 @@
 
         <div class="col-md-12 company-info" style="text-align: center">
             <hr/>
-            <a href="https://docs.oddslingers.com/s/privacy-policy">Privacy Policy</a> &nbsp; | &nbsp; 
-            <a href="https://docs.oddslingers.com/s/terms-of-service">Terms of Service</a> &nbsp; | &nbsp; 
-            <a href="https://docs.oddslingers.com/s/gdpr-info">GDPR Info</a> &nbsp; | &nbsp; 
-            <a href="https://oddslingers.com/support">Contact Support</a>
+            <a href="https://docs.turingpoker.com/s/privacy-policy">Privacy Policy</a> &nbsp; | &nbsp; 
+            <a href="https://docs.turingpoker.com/s/terms-of-service">Terms of Service</a> &nbsp; | &nbsp; 
+            <a href="https://docs.turingpoker.com/s/gdpr-info">GDPR Info</a> &nbsp; | &nbsp; 
+            <a href="https://turingpoker.com/support">Contact Support</a>
             <hr/>
         </div>
     </div>
@@ -205,3 +207,4 @@
 {% endblock inner %}
 
 {% endcache %}
+

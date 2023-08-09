@@ -114,12 +114,12 @@ a.clbl {
     background-color: #000; }
 
 .felt {
-  background-image: url(/static/images/felt.png);
+  background-image: url(/static/images/felt.jpg);
   background-color: #1a1b1b;
   border: 10px solid #6b3f29; }
 
 .no-webp .felt {
-  background-image: url(/static/images/felt.png); }
+  background-image: url(/static/images/felt.jpg); }
 
 .empty-seatbox .seat {
   background-color: #000; }
@@ -189,8 +189,11 @@ a.clbl {
   color: #ddd; }
 
 .table-page {
-  background-color: #1a1b1b;
-  background-image: url(/static/images/brick_tile2.webp); }
+  background-color: #1B1C1C;
+  background-image: url(/static/images/poker-bg-tile.jpg); 
+  background-blend-mode: color-burn;
+  background-size: 290px;
+}
 
 .no-webp .table-page {
   background-image: url(/static/images/brick_tile2.jpg); }
