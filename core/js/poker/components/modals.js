@@ -130,7 +130,7 @@ export const TableInfoModalTrigger = reduxify({
 export class ShareTableModalTrigger extends ModalTrigger {
     constructor(props){
         super(props)
-        this.state = {share_linky: `${global.location.origin}${props.table.path}`}
+        this.state = {share_linky: `http://turingpoker.com/${props.table.path}`}
     }
     onInvite() {
         const invite_email = $('#new-user-email').val()

@@ -47,12 +47,13 @@ a.clbl {
 .navbar-default {
   background-color: #1a1b1b; }
   .navbar-default .navbar-brand:hover img {
-    border: 3px solid #3b9aff; }
+    /* border: 3px solid #3b9aff;  */
+  }
   .navbar-default .navbar-nav > li > a {
     color: #fafafa;
     border-bottom: 2px solid transparent; }
     .navbar-default .navbar-nav > li > a:hover {
-      color: #3b9aff;
+      /* color: #3b9aff; */
       border-bottom: 2px solid #fafafa; }
     .navbar-default .navbar-nav > li > a:active {
       background-color: #000; }
@@ -60,9 +61,9 @@ a.clbl {
 .navbar .navbar-nav > li > a {
   /* make inactive page icons slightly lighter */ }
   .navbar .navbar-nav > li > a:hover > i.fa {
-    color: #3b9aff; }
+    /* color: #3b9aff; } */
   .navbar .navbar-nav > li > a:active > i.fa {
-    color: #3b9aff; }
+    /* color: #3b9aff; } */
   .navbar .navbar-nav > li > a > .page-icon {
     opacity: 0.7;
     color: #808080; }
@@ -72,7 +73,8 @@ a.clbl {
 
 #navbar-items .nav .active {
   background-color: #111;
-  color: #3b9aff; }
+  /* color: #3b9aff;  */
+}
 
 #navbar-items .nav li.account-dropdown .active {
   background-color: #333; }
