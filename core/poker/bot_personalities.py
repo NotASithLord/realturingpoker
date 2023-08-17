@@ -235,7 +235,7 @@ PERSONALITIES = {
         'profile': {
             'preflop': "Thinks folding shows weakness",
             'postflop': (
-                "BIOSeph_Stalin is not a timid player, and loves "
+                "Not a timid player, and loves "
                 "to push other players around."
             ),
             'bio': '',
