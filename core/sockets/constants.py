@@ -6,6 +6,7 @@ PING_TYPE = 'PING'
 PING_RESPONSE_TYPE = 'PING'
 TIME_SYNC_TYPE = 'TIME_SYNC'
 RECONNECT_TYPE = 'RECONNECT'
+API_AUTH = 'AUTH'
 # use the value in this json field in the message to pick an
 #   on_VALUE handler function
 ROUTING_KEY = 'type'

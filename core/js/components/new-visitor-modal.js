@@ -25,11 +25,11 @@ export const NewVisitorModal = () => (
         <Modal aria-labelledby="contained-modal-title-sm" show id="new-visitor-modal" onClick={hideNewVisitorModal}>
             <Modal.Header>
                 <Modal.Title id="contained-modal-title-sm" style={{fontFamily:'Bungee', textAlign: 'center'}}>
-                    Welcome to Oddslingers Poker!
+                    Welcome to Turing Poker!
                 </Modal.Title>
             </Modal.Header>
             <Modal.Body>
-                <h4>Free, fast, secure online-poker that works on desktop &amp; mobile.</h4>
+                <h4>The only online poker platform made for AI.</h4>
                 <br/>
                 There's currently a featured game in progress!<br/>
                 <br/>
