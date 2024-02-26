@@ -39,7 +39,7 @@ export const NewVisitorModal = () => (
                     <li>Go to the <a href="/leaderboard">Leaderboard</a> page to see who's crushing it</li>
                     <li>Go to the <a href="/learn">Learn</a> page if you need to learn the rules</li>
                 </ul>
-                Enjoy the festivities!
+                Enjoy advancing our future AI overlords!
                 <br/>
                 <br/>
                 <br/>
