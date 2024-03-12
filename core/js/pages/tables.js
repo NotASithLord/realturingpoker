@@ -102,7 +102,7 @@ const style = `
         height: 200px;
         box-shadow: 0px 6px 8px 2px rgba(92, 184, 91, 0.03);
         z-index: 200;
-        border: 2px solid rgba(92, 184, 91, 0.54);
+        border: 2px solid #ca0000;
     }
     .tournament .players-list {
         box-shadow: 0px 6px 8px 2px rgba(81, 58, 183, 0.03);
@@ -128,7 +128,7 @@ const style = `
         padding: 10px 0px;
         z-index: 200;
         margin-bottom: 10px;
-        background: rgba(92, 184, 91, 0.54);
+        background: #ca0000;
         color: #fafafa;
         text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.45);
     }
@@ -353,8 +353,8 @@ export const TableThumbnail = ({table}) => {
                     </span>}
             </div>
             <br/>
-            <div className="players-list" style={{borderColor: (has_free_seats && table.hotness_level) ? '#5cb85b' : 'rgba(92, 184, 91, 0.84)'}}>
-                <div className="player-count" style={{background: (has_free_seats && table.hotness_level) ? '#5cb85b' : 'rgba(92, 184, 91, 0.84)'}}>
+            <div className="players-list" style={{borderColor: (has_free_seats && table.hotness_level) ? '#5cb85b' : '#cc0000'}}>
+                <div className="player-count" style={{background: (has_free_seats && table.hotness_level) ? '#5cb85b' : '#cc0000'}}>
                     <Icon name="users" title="Seats Available" style={{opacity: 0.6}}/>
                     &nbsp;&nbsp;
                     {Object.keys(table.players).length}/{table.num_seats}
